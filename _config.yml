@@ -12,7 +12,9 @@ author:
   orcid: 0000-0001-5872-8924
   scholar: https://scholar.google.es/citations?user=xqxSCSkAAAAJ&hl=en
   github: https://github.com/guiomar
-  group: https://cajal.csic.es/en/neuroimaging
+  group: https://cajal-neuroimaging.github.io
+  group_cnc: https://cajal.csic.es/en/neuroimaging
+  cnc: https://cajal.csic.es/en/
 
 nav:
   - title: Vitae
