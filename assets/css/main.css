@@ -280,3 +280,13 @@ p { margin: 0 0 1em; }
 .btn--ghost { border-color: rgba(255,255,255,.55); color: #fff; }
 .btn--ghost:hover { background: #fff; color: #12333B; }
 @media (max-width: 640px) { .group-banner__inner { grid-template-columns: 1fr; } .group-banner__logo { width: 8rem; } }
+
+/* Vitae: current positions with logo */
+.cv2__pos { position: relative; padding-right: 5.2rem !important; }
+.cv2__logo { position: absolute; top: 1rem; right: 1.1rem; width: 3.6rem; height: 3.6rem; object-fit: contain; }
+.cv2__pos .cv2__head { font-size: var(--step-1); font-weight: 700; }
+.cv2__role { display: inline; font-weight: 700; margin-top: .35rem !important; padding: .05rem .4rem; border-radius: 6px; line-height: 1.7;
+  background: color-mix(in srgb, var(--c) 22%, white); -webkit-box-decoration-break: clone; box-decoration-break: clone; }
+.cv2__pos .cv2__rest { font-size: var(--step--1); margin-top: .45rem !important; }
+.cv2__when { font-size: var(--step--1); color: var(--ink-soft); margin-top: .35rem !important; }
+.cv2__role { display: block; width: fit-content; line-height: 1.35; padding: .2rem .55rem; }

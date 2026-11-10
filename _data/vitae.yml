@@ -4,20 +4,40 @@
 - title: Positions
   style: cards
   entries:
-    - years: 2024 – present
-      text: Tenured Scientist (Científico Titular), CSIC. Head of the Neuroimaging Group, Cajal Neuroscience Center (CNC-CSIC), Spain
-    - years: 2025 – present
-      text: Vice President, Young Academy of Spain (Full Member since 2022; Board Member 2024 – 2025)
-    - years: 2025 – present
-      text: Vice Chair, EU COST Action CA24161 INDoS (Improving Neuroimaging Data for Sharing)
-    - years: 2025 – present
-      text: Management Committee Member for Spain, EU COST Action CA24148 EEG101 (Fundamentals of Open & Rigorous EEG Science)
-    - years: 2025 – present
-      text: Steering Committee Member, NiPreps (NeuroImaging PREProcessing toolS)
-    - years: 2023 – present
-      text: Scientific Steering Committee Member, NeuroJSON
-    - years: 2008 – present
-      text: Associate Researcher, Centro de Investigación Biomédica en Red en Bioingeniería, Biomateriales y Nanomedicina (CIBER-BBN)
+    - org: Cajal Neuroscience Center (CNC-CSIC)
+      role: Tenured Scientist (Científica Titular) and Head of the Neuroimaging Group
+      desc: Spanish National Research Council (CSIC), Alcalá de Henares, Spain
+      years: 2024 – present
+      logo: cnc.png
+    - org: Young Academy of Spain
+      role: Vice President
+      desc: Full Member since 2022; Board Member 2024 – 2025
+      years: 2025 – present
+      logo: ajde.png
+    - org: EU COST Action CA24161 INDoS
+      role: Vice Chair
+      desc: Improving Neuroimaging Data for Sharing
+      years: 2025 – present
+      logo: indos.png
+    - org: EU COST Action CA24148 EEG101
+      role: Management Committee Member for Spain
+      desc: Fundamentals of Open & Rigorous EEG Science
+      years: 2025 – present
+      logo: eeg101.png
+    - org: NiPreps
+      role: Steering Committee Member
+      desc: NeuroImaging PREProcessing toolS
+      years: 2025 – present
+      logo: nipreps.png
+    - org: NeuroJSON
+      role: Scientific Steering Committee Member
+      desc: Standardised, searchable formats for neuroimaging data
+      years: 2023 – present
+      logo: neurojson.png
+    - org: CIBER-BBN
+      role: Associate Researcher
+      desc: Centro de Investigación Biomédica en Red en Bioingeniería, Biomateriales y Nanomedicina
+      years: 2008 – present
 
 - title: Past positions
   style: timeline

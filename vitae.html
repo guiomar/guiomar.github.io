@@ -15,6 +15,16 @@ permalink: /vitae/
     {% for e in s.entries %}
     {% assign head = e.text | split: ', ' | first %}
     {% assign rest = e.text | remove_first: head | remove_first: ', ' %}
+    {% if e.org %}
+    <li class="cv2__pos">
+      {% if e.logo %}<img class="cv2__logo" src="{{ '/assets/img/logos/' | append: e.logo | relative_url }}" alt="" loading="lazy">{% endif %}
+      <p class="cv2__head">{{ e.org }}</p>
+      <p class="cv2__role">{{ e.role }}</p>
+      {% if e.desc %}<p class="cv2__rest">{{ e.desc }}</p>{% endif %}
+      <p class="cv2__when">{{ e.years }}</p>
+    </li>
+    {% continue %}
+    {% endif %}
     <li>
       {% if s.style == 'awards' %}<span class="cv2__year">{{ e.years }}</span>{% endif %}
       <p class="cv2__head">{{ head }}</p>
