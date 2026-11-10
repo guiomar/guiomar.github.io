@@ -33,7 +33,7 @@ description: Guiomar Niso, tenured scientist at CSIC and Head of the Neuroimagin
       <ul>
         {% assign current = site.data.vitae[0].entries %}
         {% for e in current limit: 6 %}
-        <li><span class="yr">Since {{ e.years | split: ' ' | first }}</span>{{ e.text }}</li>
+        <li><span class="yr">Since {{ e.years | split: ' ' | first }}</span>{% if e.org %}<strong>{{ e.role }}</strong>, {{ e.org }}{% else %}{{ e.text }}{% endif %}</li>
         {% endfor %}
       </ul>
       <p><a href="{{ '/vitae/' | relative_url }}">Full vitae</a></p>
