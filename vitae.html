@@ -5,11 +5,14 @@ slug: vitae
 permalink: /vitae/
 ---
 {% for s in site.data.vitae %}
-<section class="cv-section">
+<section class="cv-block cv-block--{{ forloop.index }}">
   <h2>{{ s.title }}</h2>
-  <ul class="cv-list">
+  <ul class="cv-entries">
     {% for e in s.entries %}
-    <li><span class="yr">{{ e.years }}</span><span>{% if e.link %}<a href="{{ e.link }}">{{ e.text }}</a>{% else %}{{ e.text }}{% endif %}</span></li>
+    <li>
+      <p class="cv-entry__text">{{ e.text }}{% if e.link %} <a class="cv-entry__link" href="{{ e.link }}">(view)</a>{% endif %}</p>
+      <p class="cv-entry__date">{{ e.years }}</p>
+    </li>
     {% endfor %}
   </ul>
 </section>
