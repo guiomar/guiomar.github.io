@@ -17,11 +17,11 @@ permalink: /vitae/
     {% assign rest = e.text | remove_first: head | remove_first: ', ' %}
     {% if e.org %}
     <li class="cv2__pos{% if e.featured %} cv2__pos--featured{% endif %}">
-      {% if e.logo %}<span class="cv2__logo{% if e.logo2 %} cv2__logo--two{% endif %}"><img src="{{ '/assets/img/logos/' | append: e.logo | relative_url }}" alt="" loading="lazy">{% if e.logo2 %}<img src="{{ '/assets/img/logos/' | append: e.logo2 | relative_url }}" alt="" loading="lazy">{% endif %}</span>{% elsif s.title == 'Awards' %}<span class="cv2__logo cv2__yeartile">{{ e.years | split: ' ' | first }}</span>{% endif %}
+      {% if e.logo %}<span class="cv2__logo{% if e.logo2 %} cv2__logo--two{% endif %}"><img src="{{ '/assets/img/logos/' | append: e.logo | relative_url }}" alt="" loading="lazy">{% if e.logo2 %}<img src="{{ '/assets/img/logos/' | append: e.logo2 | relative_url }}" alt="" loading="lazy">{% endif %}</span>{% endif %}
       <p class="cv2__head">{{ e.org }}</p>
       <p class="cv2__role">{{ e.role }}</p>
       {% if e.desc or e.link %}<p class="cv2__rest">{{ e.desc }}{% if e.link %} <a href="{{ e.link }}">(view)</a>{% endif %}</p>{% endif %}
-      {% unless s.title == 'Awards' and e.years.size < 5 %}<p class="cv2__when">{{ e.years }}</p>{% endunless %}
+      <p class="cv2__when">{{ e.years }}</p>
     </li>
     {% continue %}
     {% endif %}
