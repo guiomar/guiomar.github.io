@@ -88,41 +88,73 @@
       text: Max Planck Institute for Brain Research, Frankfurt am Main, Germany. Neurophysiology Department (Prof. Wolf Singer, with Dr. Raúl Vicente)
 
 - title: Awards
-  style: awards
+  style: cards
+  id: awards
   entries:
-    - years: "2023"
-      text: Medal for Young Researchers, Royal Academy of Engineering of Spain
+    - org: Royal Academy of Engineering of Spain
+      role: Medal for Young Researchers
+      desc: Open to engineering researchers under 40
+      years: "2023"
       link: https://www.raing.es/comunicacion/actos/premios-y-distinciones/premios-jovenes-investigadores/premios-jovenes-investigadores-2023/
-    - years: "2023"
-      text: International Open Science Prize, The Neuro and the Irv and Helga Cooper Foundation, awarded to the BIDS Steering Group [80K CAD]
+      featured: true
+    - org: The Neuro · Irv and Helga Cooper Foundation
+      role: International Open Science Prize
+      desc: Awarded to the BIDS Steering Group (CAD 80,000)
+      years: "2023"
       link: https://www.mcgill.ca/neuro/article/rewarding-excellence-open-science
-    - years: "2023"
-      text: Team Credibility in Neuroscience Prize, British Neuroscience Association (BNA), awarded to the #EEGManyLabs team
-    - years: "2022"
-      text: Elected Full Member (Académica de Número) of the Young Academy of Spain, limited to 50 members
-      link: https://academiajoven.es/academicos/
-    - years: "2022"
-      text: Young Ada Byron Award for Women Technologists, University of Deusto [1K€]
+    - org: British Neuroscience Association
+      role: Team Credibility in Neuroscience Prize
+      desc: "Awarded to the #EEGManyLabs team"
+      years: "2023"
+      link: https://www.bna.org.uk/mediacentre/news/credibility-prize-2023/
+    - org: Young Academy of Spain
+      role: Elected Full Member
+      desc: One of 10 researchers elected in 2022; membership limited to 50
+      years: "2022"
+    - org: University of Deusto
+      role: Young Ada Byron Award for Women Technologists
+      desc: "€1,000; 37 candidates"
+      years: "2022"
       link: https://www.deusto.es/es/inicio/somos-deusto/facultades/ingenieria/eventos-y-premios/premio-ada-byron
-    - years: "2020"
-      text: Special Mention, The Neuro Open Science in Action Prize, awarded to the Brain Imaging Data Structure (BIDS)
-    - years: "2015"
-      text: Lewis Reford Travel Award, Montreal Neurological Institute, McGill University [1.5K CAD]
-    - years: "2014"
-      text: Best Idea Award, actúa_COM competition (Center for Open Middleware and UPM Entrepreneurship Program) [1K€] with 'Mindzilla, mind your mind'
-    - years: "2013"
-      text: Finalist, Venture Day competition, IE Business School
-    - years: "2013"
-      text: Honorable Mention, Idea2 Madrid competition of the Madrid-MIT M+Vision Consortium program, with the project 'WEEG wireless EEG'
-    - years: "2013"
-      text: "Diploma for the best business ideas, actúaupm X Entrepreneurship Competition UPM, with project 'HERMES: Towards real-time unraveling of dynamic brain connectivity'"
-    - years: "2012"
-      text: Finalist, Idea2 Madrid competition, Madrid-MIT M+Vision Consortium program
-    - years: "2009"
-      text: 1st Mandelbrot Prize at the competition of fractals of ETSAM-UPM, together with Anira Niso and Yara Niso, presenting 'Sierpinski's emptiness' project
-    - years: 2008 – 2009
-      text: Movistar Chair study grant, ETSIT-UPM
-    - years: 2003 – 2005
-      text: Excellence Scholarship for outstanding academic performance, Comunidad de Madrid (CAM)
-    - years: "2003"
-      text: Prize for students with excellent grades at the University Entrance Examination (Selectividad), Universidad Autónoma de Madrid (UAM)
+    - org: The Neuro
+      role: Open Science in Action Prize, Special Mention
+      desc: Awarded to the Brain Imaging Data Structure (BIDS)
+      years: "2020"
+    - org: Montreal Neurological Institute, McGill University
+      role: Lewis Reford Travel Award
+      desc: CAD 1,500
+      years: "2015"
+      link: https://www.mcgill.ca/neuro/education/financial-support/competition-results
+    - org: actúaCOM, UPM
+      role: Best Idea Award
+      desc: "€1,000 for 'Mindzilla, mind your mind'"
+      years: "2014"
+    - org: IE Business School
+      role: Finalist, Venture Day
+      years: "2013"
+    - org: Idea2 Madrid · Madrid-MIT M+Vision
+      role: Honorable Mention
+      desc: "Project 'WEEG wireless EEG'"
+      years: "2013"
+      link: https://www.madrimasd.org/blogs/emprendedores/2014/03/06/136070
+    - org: actúaupm X, UPM
+      role: Diploma for the best business ideas
+      desc: "Project 'HERMES: towards real-time unravelling of dynamic brain connectivity'"
+      years: "2013"
+    - org: Idea2 Madrid · Madrid-MIT M+Vision
+      role: Finalist
+      years: "2012"
+    - org: Fractal Competition, ETSAM-UPM
+      role: 1st Mandelbrot Prize
+      desc: "'Sierpinski's emptiness', with A. Niso and Y. Niso"
+      years: "2009"
+    - org: ETSIT, Universidad Politécnica de Madrid
+      role: Movistar Chair study grant
+      years: 2008 – 2009
+    - org: Comunidad de Madrid
+      role: Excellence Scholarship
+      desc: For outstanding academic performance
+      years: 2003 – 2005
+    - org: Universidad Autónoma de Madrid
+      role: Award for top grades in the University Entrance Examination
+      years: "2003"
