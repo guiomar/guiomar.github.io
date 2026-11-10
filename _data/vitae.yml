@@ -1,0 +1,100 @@
+# Edit this file to update the Vitae page.
+# Each section has a title and a list of entries (years + text).
+
+- title: Positions
+  entries:
+    - years: 2024 – present
+      text: Tenured Scientist (Científico Titular), CSIC. Head of the Neuroimaging Group, Cajal Neuroscience Center (CNC-CSIC), Spain
+    - years: 2025 – present
+      text: Vice President, Young Academy of Spain (Full Member since 2022; Board Member 2024 – 2025)
+    - years: 2025 – present
+      text: Vice Chair, EU COST Action CA24161 INDoS (Improving Neuroimaging Data for Sharing)
+    - years: 2025 – present
+      text: Management Committee Member for Spain, EU COST Action CA24148 EEG101 (Fundamentals of Open & Rigorous EEG Science)
+    - years: 2025 – present
+      text: Steering Committee Member, NiPreps (NeuroImaging PREProcessing toolS)
+    - years: 2023 – present
+      text: Scientific Steering Committee Member, NeuroJSON
+    - years: 2008 – present
+      text: Associate Researcher, Centro de Investigación Biomédica en Red en Bioingeniería, Biomateriales y Nanomedicina (CIBER-BBN)
+
+- title: Past positions
+  entries:
+    - years: 2023 – 2024
+      text: Ramón y Cajal Senior Researcher, Instituto Cajal, CSIC, Spain
+    - years: 2021 – 2023
+      text: Senior Researcher, Brainlife.io team, Indiana University, USA & Spain
+    - years: 2019 – 2023
+      text: Chair of the BIDS Steering Group (elected), Brain Imaging Data Structure (BIDS)
+    - years: 2017 – 2019
+      text: AXA Postdoctoral Fellow, Universidad Politécnica de Madrid, Spain
+    - years: 2013 – 2016
+      text: Postdoctoral Fellow, McConnell Brain Imaging Centre, Montreal Neurological Institute, McGill University, Canada
+    - years: 2009 – 2013
+      text: FPU Predoctoral Fellow, Center for Biomedical Technology, Universidad Politécnica de Madrid, Spain
+
+- title: Education
+  entries:
+    - years: 2008 – 2013
+      text: PhD in Biomedical Engineering with European Mention, Center for Biomedical Technology (CTB), Universidad Politécnica de Madrid (UPM)
+    - years: 2009 – 2012
+      text: 4th year of the Mathematics Degree, Universidad Complutense de Madrid (UCM)
+    - years: 2008 – 2009
+      text: MSc in Bioengineering and Telemedicine, Escuela Técnica Superior de Ingenieros de Telecomunicación (ETSIT-UPM)
+    - years: 2003 – 2008
+      text: MSc in Telecommunications Engineering with Honours, specialisation in Communications, intensification in Bioengineering, ETSIT-UPM
+
+- title: Accreditations
+  entries:
+    - years: "2020"
+      text: I3 Certification for research excellence (Programa I3), Spanish State Research Agency (AEI)
+    - years: "2019"
+      text: ANECA accreditation as Profesor Contratado Doctor (Associate Professor)
+
+- title: Research visits
+  entries:
+    - years: 09/2019
+      text: University of Nottingham, Sir Peter Mansfield Imaging Centre, UK (Prof. Matthew Brookes)
+    - years: 09 – 12/2011
+      text: Netherlands Institute for Neuroscience, Amsterdam, The Netherlands. Sleep and Cognition Group (Prof. Eus van Someren, with Dr. Germán Gómez-Herrero)
+    - years: 09 – 12/2010
+      text: Max Planck Institute for Brain Research, Frankfurt am Main, Germany. Neurophysiology Department (Prof. Wolf Singer, with Dr. Raúl Vicente)
+
+- title: Awards
+  entries:
+    - years: "2023"
+      text: Medal for Young Researchers, Royal Academy of Engineering of Spain
+      link: https://www.raing.es/comunicacion/actos/premios-y-distinciones/premios-jovenes-investigadores/premios-jovenes-investigadores-2023/
+    - years: "2023"
+      text: International Open Science Prize, The Neuro and the Irv and Helga Cooper Foundation, awarded to the BIDS Steering Group [80K CAD]
+      link: https://www.mcgill.ca/neuro/article/rewarding-excellence-open-science
+    - years: "2023"
+      text: Team Credibility in Neuroscience Prize, British Neuroscience Association (BNA), awarded to the #EEGManyLabs team
+    - years: "2022"
+      text: Elected Full Member (Académica de Número) of the Young Academy of Spain, limited to 50 members
+      link: https://academiajoven.es/academicos/
+    - years: "2022"
+      text: Young Ada Byron Award for Women Technologists, University of Deusto [1K€]
+      link: https://www.deusto.es/es/inicio/somos-deusto/facultades/ingenieria/eventos-y-premios/premio-ada-byron
+    - years: "2020"
+      text: Special Mention, The Neuro Open Science in Action Prize, awarded to the Brain Imaging Data Structure (BIDS)
+    - years: "2015"
+      text: Lewis Reford Travel Award, Montreal Neurological Institute, McGill University [1.5K CAD]
+    - years: "2014"
+      text: Best Idea Award, actúa_COM competition (Center for Open Middleware and UPM Entrepreneurship Program) [1K€] with 'Mindzilla, mind your mind'
+    - years: "2013"
+      text: Finalist, Venture Day competition, IE Business School
+    - years: "2013"
+      text: Honorable Mention, Idea2 Madrid competition of the Madrid-MIT M+Vision Consortium program, with the project 'WEEG wireless EEG'
+    - years: "2013"
+      text: "Diploma for the best business ideas, actúaupm X Entrepreneurship Competition UPM, with project 'HERMES: Towards real-time unraveling of dynamic brain connectivity'"
+    - years: "2012"
+      text: Finalist, Idea2 Madrid competition, Madrid-MIT M+Vision Consortium program
+    - years: "2009"
+      text: 1st Mandelbrot Prize at the competition of fractals of ETSAM-UPM, together with Anira Niso and Yara Niso, presenting 'Sierpinski's emptiness' project
+    - years: 2008 – 2009
+      text: Movistar Chair study grant, ETSIT-UPM
+    - years: 2003 – 2005
+      text: Excellence Scholarship for outstanding academic performance, Comunidad de Madrid (CAM)
+    - years: "2003"
+      text: Prize for students with excellent grades at the University Entrance Examination (Selectividad), Universidad Autónoma de Madrid (UAM)

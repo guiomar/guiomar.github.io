@@ -1,0 +1,81 @@
+---
+layout: default
+slug: home
+description: Guiomar Niso, tenured scientist at CSIC and Head of the Neuroimaging Group at the Cajal Neuroscience Center. Human neurophysiology, MEG/EEG and open science.
+---
+<section class="hero">
+  <div class="wrap hero__grid">
+    <div>
+      <h1>Guiomar<br>Niso</h1>
+      <p class="hero__role"><strong>Tenured scientist at CSIC</strong> and Head of the Neuroimaging Group at the Cajal Neuroscience Center. I study human brain rhythms in health and disease, and build open tools so others can too.</p>
+      <div class="hero__actions">
+        <a class="btn btn--fill" href="{{ site.author.group }}">Visit the Neuroimaging Group</a>
+        <a class="btn" href="{{ '/contact/' | relative_url }}">Get in touch</a>
+      </div>
+    </div>
+    <div class="hero__photo">
+      <img src="{{ '/assets/img/guiomar-niso.jpg' | relative_url }}" alt="Guiomar Niso in the MEG laboratory" width="640" height="800">
+    </div>
+  </div>
+  {% include signal.html %}
+</section>
+
+<section class="section">
+  <div class="wrap about">
+    <div class="about__text">
+      <h2 class="visually-hidden">About</h2>
+      <p>Guiomar Niso is a tenured scientist at the Spanish National Research Council (CSIC), <a href="{{ site.author.group }}">Head of the Neuroimaging Group at the Cajal Neuroscience Center (CNC-CSIC)</a> and Vice President of the <a href="https://academiajoven.es/academicos/">Young Academy of Spain</a>. She investigates human neurophysiology to characterize brain dynamics in health and disease, aiming to improve people's lives through better clinical applications.</p>
+      <p>She graduated in Telecommunications Engineering with Honors from the Universidad Politécnica de Madrid (UPM, 2008), where she also completed an MSc in Bioengineering and Telemedicine (2009) and a PhD in Biomedical Engineering with European Mention (2013), funded by a competitive national FPU Fellowship and including research stays at the Max Planck Institute for Brain Research and the Netherlands Institute for Neuroscience. From 2013 to 2016 she was a Postdoctoral Fellow at the Montreal Neurological Institute, McGill University. In 2017 she returned to Spain with an international AXA Postdoctoral Fellowship, the first ever awarded at UPM; she obtained the I3 research excellence certification in 2020 and was Senior Researcher at Indiana University (2021–2023). In 2023 she joined the Cajal Institute (CSIC) as Principal Investigator with a Ramón y Cajal fellowship and, one year later, obtained a tenured position.</p>
+      <p>Dr. Niso has led multiple open science initiatives: open data repositories (the Open MEG Archive, <a href="https://www.mcgill.ca/bic/resources/omega">OMEGA</a>), open software (<a href="https://brainlife.io/">Brainlife</a>, <a href="https://neuroimage.usc.edu/brainstorm/">Brainstorm</a>, <a href="http://hermes.ctb.upm.es">HERMES</a>) and open standards (the Brain Imaging Data Structure, <a href="https://bids.neuroimaging.io">BIDS</a>), to foster reproducibility and transparency in neuroscience. She chaired the first elected BIDS Steering Group (2019–2023) and serves on the steering committees of <a href="https://www.nipreps.org/">NiPreps</a> and <a href="https://neurojson.org/">NeuroJSON</a>. Since 2025 she has been Vice Chair of the EU COST Action <a href="https://www.cost.eu/actions/CA24161/">INDoS</a> (Improving Neuroimaging Data for Sharing) and Spain's representative in the COST Action <a href="https://www.eeg101.eu/">EEG101</a> (Fundamentals of Open &amp; Rigorous EEG Science).</p>
+      <p>Her work has been recognised with the <a href="https://www.raing.es/comunicacion/actos/premios-y-distinciones/premios-jovenes-investigadores/premios-jovenes-investigadores-2023/">Medal for Young Researchers</a> of the Royal Academy of Engineering of Spain (2023), the <a href="https://www.mcgill.ca/neuro/article/rewarding-excellence-open-science">International Open Science Prize</a> of The Neuro and the Irv and Helga Cooper Foundation awarded to the BIDS Steering Group (2023), the British Neuroscience Association Team Credibility Prize awarded to #EEGManyLabs (2023), the <a href="https://www.deusto.es/es/inicio/somos-deusto/facultades/ingenieria/eventos-y-premios/premio-ada-byron">Young Ada Byron Award for Women Technologists</a> (2022) and her election to the <a href="https://academiajoven.es/academicos/">Young Academy of Spain</a> (2022).</p>
+    </div>
+    <aside class="now" aria-labelledby="now-title">
+      <h2 id="now-title">Current roles</h2>
+      <ul>
+        {% assign current = site.data.vitae[0].entries %}
+        {% for e in current limit: 6 %}
+        <li><span class="yr">Since {{ e.years | split: ' ' | first }}</span>{{ e.text }}</li>
+        {% endfor %}
+      </ul>
+      <p><a href="{{ '/vitae/' | relative_url }}">Full vitae</a></p>
+    </aside>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <div class="section__head">
+      <h2>Open science</h2>
+      <a class="section__more" href="{{ '/initiatives/' | relative_url }}">All initiatives</a>
+    </div>
+    <ul class="logo-row">
+      {% for i in site.data.initiatives %}
+      <li><a href="{{ i.url }}" title="{{ i.name }}"><img src="{{ '/assets/img/logos/' | append: i.logo | relative_url }}" alt="{{ i.short }}" loading="lazy"></a></li>
+      {% endfor %}
+    </ul>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <div class="section__head">
+      <h2>Recent publications</h2>
+      <a class="section__more" href="{{ '/publications/' | relative_url }}">All publications</a>
+    </div>
+    <ol class="pubs">
+      {% for pub in site.data.publications limit: 4 %}{% include pub.html %}{% endfor %}
+    </ol>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <div class="section__head">
+      <h2>In the media</h2>
+      <a class="section__more" href="{{ '/media/' | relative_url }}">All appearances</a>
+    </div>
+    <ul class="media-list">
+      {% for item in site.data.media limit: 4 %}{% include media-item.html %}{% endfor %}
+    </ul>
+  </div>
+</section>

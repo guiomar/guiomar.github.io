@@ -1,0 +1,16 @@
+---
+layout: page
+title: Vitae
+slug: vitae
+permalink: /vitae/
+---
+{% for s in site.data.vitae %}
+<section class="cv-section">
+  <h2>{{ s.title }}</h2>
+  <ul class="cv-list">
+    {% for e in s.entries %}
+    <li><span class="yr">{{ e.years }}</span><span>{% if e.link %}<a href="{{ e.link }}">{{ e.text }}</a>{% else %}{{ e.text }}{% endif %}</span></li>
+    {% endfor %}
+  </ul>
+</section>
+{% endfor %}

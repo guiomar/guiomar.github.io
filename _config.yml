@@ -1,0 +1,35 @@
+title: Guiomar Niso
+description: >-
+  Neuroscientist at CSIC. Head of the Neuroimaging Group at the Cajal
+  Neuroscience Center. Human neurophysiology, MEG/EEG and open science.
+url: "https://guiomarniso.com"
+baseurl: ""
+lang: en
+
+author:
+  name: Guiomar Niso
+  email: guiomar.niso (at) cajal.csic.es
+  orcid: 0000-0001-5872-8924
+  scholar: https://scholar.google.es/citations?user=xqxSCSkAAAAJ&hl=en
+  github: https://github.com/guiomar
+  group: https://cajal.csic.es/en/neuroimaging
+
+nav:
+  - title: Vitae
+    url: /vitae/
+  - title: Publications
+    url: /publications/
+  - title: Initiatives
+    url: /initiatives/
+  - title: Media
+    url: /media/
+  - title: Contact
+    url: /contact/
+
+markdown: kramdown
+plugins:
+  - jekyll-seo-tag
+
+exclude:
+  - README.md
+  - tools/

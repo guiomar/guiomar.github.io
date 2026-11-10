@@ -1,0 +1,5 @@
+<li class="media-item" data-type="{{ item.type }}">
+  <span class="media-item__type media-item__type--{{ item.type }}">{% if item.type == 'tv' %}TV{% elsif item.type == 'radio' %}Radio and podcasts{% else %}Press{% endif %}</span>
+  <p class="media-item__outlet">{{ item.outlet }} <time datetime="{{ item.date }}">{{ item.date | date: "%-d %b %Y" }}</time></p>
+  <p class="media-item__title">{% if item.url %}<a href="{{ item.url }}">{{ item.title }}</a>{% else %}{{ item.title }}{% endif %}</p>
+</li>
