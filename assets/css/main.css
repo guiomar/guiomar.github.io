@@ -302,3 +302,23 @@ p { margin: 0 0 1em; }
 .site-foot__inner { flex-direction: column; align-items: flex-start; }
 .site-foot__links--row { display: flex !important; flex-wrap: wrap; gap: .3rem 0 !important; }
 .site-foot__links--row li + li::before { content: "·"; margin: 0 .55rem; color: #DCEDEE; }
+
+/* Vitae positions v2 */
+#positions ul { grid-template-columns: repeat(auto-fill, minmax(min(100%, 18rem), 1fr)); gap: 1.1rem; }
+#positions li.cv2__pos { display: flex; flex-direction: column; border: 1px solid var(--line); border-top: 1px solid var(--line);
+  border-radius: 18px; padding: 1.3rem 5.6rem 1.1rem 1.3rem !important; background: var(--surface); min-height: 11.5rem;
+  transition: border-color .2s, box-shadow .2s; }
+#positions li.cv2__pos:hover { border-color: color-mix(in srgb, var(--turquoise) 60%, white); box-shadow: 0 6px 20px -12px rgba(18,51,58,.35); }
+#positions .cv2__logo { position: absolute; top: 1.1rem; right: 1.1rem; width: 3.6rem; height: 3.6rem; display: grid; place-items: center;
+  border-radius: 12px; background: #fff; border: 1px solid var(--line); padding: .35rem; }
+#positions .cv2__logo img { position: static; width: 100%; height: 100%; object-fit: contain; }
+#positions .cv2__head { font-size: 1.12rem; font-weight: 700; line-height: 1.25; }
+#positions .cv2__role { font-size: .95rem; font-weight: 600; color: #006E75; margin-top: .35rem !important; }
+#positions .cv2__rest { font-size: .88rem; line-height: 1.45; margin-top: .4rem !important; }
+#positions .cv2__when { margin-top: auto !important; padding-top: .9rem; font-size: .78rem; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; color: var(--ink-soft); }
+#positions li.cv2__pos--featured { grid-column: 1 / -1; min-height: 0; padding-right: 8rem !important;
+  background: linear-gradient(135deg, color-mix(in srgb, var(--turquoise) 10%, white), color-mix(in srgb, var(--yellow) 18%, white)); border-color: transparent; }
+#positions .cv2__pos--featured .cv2__head { font-size: 1.35rem; }
+#positions .cv2__pos--featured .cv2__role { font-size: 1.05rem; }
+#positions .cv2__pos--featured .cv2__logo { width: 6.2rem; height: 4.2rem; top: 50%; transform: translateY(-50%); }
+#positions li.cv2__pos--featured .cv2__when { padding-top: .6rem; }

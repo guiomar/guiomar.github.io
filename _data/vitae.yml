@@ -5,38 +5,39 @@
   style: cards
   entries:
     - org: Cajal Neuroscience Center (CNC-CSIC)
-      role: Tenured Scientist and Head of the Neuroimaging Group
+      role: Tenured Scientist · Head of the Neuroimaging Group
       desc: Spanish National Research Council (CSIC), Alcalá de Henares, Spain
       years: 2024 – present
       logo: cnc.png
+      featured: true
     - org: Young Academy of Spain
       role: Vice President
-      desc: Full Member since 2022; Board Member 2024 – 2025
+      desc: Full Member since 2022, Board Member 2024 – 2025
       years: 2025 – present
       logo: ajde.png
-    - org: EU COST Action CA24161 INDoS
+    - org: INDoS · EU COST Action CA24161
       role: Vice Chair
       desc: Improving Neuroimaging Data for Sharing
       years: 2025 – present
       logo: indos.png
-    - org: EU COST Action CA24148 EEG101
-      role: Management Committee Member for Spain
+    - org: EEG101 · EU COST Action CA24148
+      role: Management Committee, Spain
       desc: Fundamentals of Open & Rigorous EEG Science
       years: 2025 – present
       logo: eeg101.png
     - org: NiPreps
-      role: Steering Committee Member
+      role: Steering Committee
       desc: NeuroImaging PREProcessing toolS
       years: 2025 – present
       logo: nipreps.png
     - org: NeuroJSON
-      role: Scientific Steering Committee Member
-      desc: Standardised, searchable formats for neuroimaging data
+      role: Scientific Steering Committee
+      desc: Scalable, searchable formats for neuroimaging data
       years: 2023 – present
       logo: neurojson.png
     - org: CIBER-BBN
       role: Associate Researcher
-      desc: Centro de Investigación Biomédica en Red en Bioingeniería, Biomateriales y Nanomedicina
+      desc: Spanish research network in Bioengineering, Biomaterials and Nanomedicine
       years: 2008 – present
       logo: ciber-bbn.svg
 
