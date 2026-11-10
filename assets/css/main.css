@@ -75,7 +75,7 @@ p { margin: 0 0 1em; }
 }
 
 /* ---------- hero ---------- */
-.hero { padding-block: clamp(2.5rem, 7vw, 5rem) 0; }
+.hero { padding-block: clamp(2.5rem, 7vw, 5rem); }
 .hero__grid { display: grid; grid-template-columns: minmax(0, 1.5fr) minmax(14rem, 1fr); gap: clamp(2rem, 5vw, 4.5rem); align-items: end; }
 .hero h1 { font-size: var(--step-4); font-weight: 300; letter-spacing: -0.02em; line-height: 1; }
 .hero__role { font-size: var(--step-1); line-height: 1.45; color: var(--ink-soft); max-width: 34ch; margin-top: 1.4rem; }
