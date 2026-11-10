@@ -291,3 +291,14 @@ p { margin: 0 0 1em; }
 .cv2__when { font-size: var(--step--1); color: var(--ink-soft); margin-top: .35rem !important; }
 .cv2__role { display: block; width: fit-content; line-height: 1.35; padding: .2rem .55rem; }
 .cv2__role { background: none !important; padding: 0 !important; font-size: var(--step-0); font-weight: 600; margin-top: .25rem !important; }
+
+/* compact footer */
+.site-foot { padding-block: 1.6rem !important; }
+.site-foot__inner { align-items: center; gap: 1rem 2rem !important; }
+.site-foot__name { margin-bottom: .25rem !important; }
+.site-foot p { margin: 0; }
+.site-foot__inst img { height: 2.1rem !important; }
+.site-foot__inst a { padding: .4rem .7rem !important; }
+.site-foot__inner { flex-direction: column; align-items: flex-start; }
+.site-foot__links--row { display: flex !important; flex-wrap: wrap; gap: .3rem 0 !important; }
+.site-foot__links--row li + li::before { content: "·"; margin: 0 .55rem; color: #DCEDEE; }
