@@ -4,14 +4,22 @@ title: Vitae
 slug: vitae
 permalink: /vitae/
 ---
+<nav class="cv-jump" aria-label="Sections">
+  {% for s in site.data.vitae %}<a href="#{{ s.title | slugify }}">{{ s.title }}</a>{% endfor %}
+</nav>
+
 {% for s in site.data.vitae %}
-<section class="cv-block cv-block--{{ forloop.index }}">
+<section class="cv2 cv2--{{ s.style }} cv2--c{{ forloop.index | modulo: 5 }}" id="{{ s.title | slugify }}">
   <h2>{{ s.title }}</h2>
-  <ul class="cv-entries">
+  <ul>
     {% for e in s.entries %}
+    {% assign head = e.text | split: ', ' | first %}
+    {% assign rest = e.text | remove_first: head | remove_first: ', ' %}
     <li>
-      <p class="cv-entry__text">{{ e.text }}{% if e.link %} <a class="cv-entry__link" href="{{ e.link }}">(view)</a>{% endif %}</p>
-      <p class="cv-entry__date">{{ e.years }}</p>
+      {% if s.style == 'awards' %}<span class="cv2__year">{{ e.years }}</span>{% endif %}
+      <p class="cv2__head">{{ head }}</p>
+      {% if rest != '' %}<p class="cv2__rest">{{ rest }}{% if e.link %} <a href="{{ e.link }}">(view)</a>{% endif %}</p>{% elsif e.link %}<p class="cv2__rest"><a href="{{ e.link }}">(view)</a></p>{% endif %}
+      {% if s.style != 'awards' %}<p class="cv2__date">{{ e.years }}</p>{% endif %}
     </li>
     {% endfor %}
   </ul>

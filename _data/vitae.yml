@@ -2,6 +2,7 @@
 # Each section has a title and a list of entries (years + text).
 
 - title: Positions
+  style: cards
   entries:
     - years: 2024 – present
       text: Tenured Scientist (Científico Titular), CSIC. Head of the Neuroimaging Group, Cajal Neuroscience Center (CNC-CSIC), Spain
@@ -19,6 +20,7 @@
       text: Associate Researcher, Centro de Investigación Biomédica en Red en Bioingeniería, Biomateriales y Nanomedicina (CIBER-BBN)
 
 - title: Past positions
+  style: timeline
   entries:
     - years: 2023 – 2024
       text: Ramón y Cajal Senior Researcher, Instituto Cajal, CSIC, Spain
@@ -34,6 +36,7 @@
       text: FPU Predoctoral Fellow, Center for Biomedical Technology, Universidad Politécnica de Madrid, Spain
 
 - title: Education
+  style: timeline
   entries:
     - years: 2008 – 2013
       text: PhD in Biomedical Engineering with European Mention, Center for Biomedical Technology (CTB), Universidad Politécnica de Madrid (UPM)
@@ -45,6 +48,7 @@
       text: MSc in Telecommunications Engineering with Honours, specialisation in Communications, intensification in Bioengineering, ETSIT-UPM
 
 - title: Accreditations
+  style: cards
   entries:
     - years: "2020"
       text: I3 Certification for research excellence (Programa I3), Spanish State Research Agency (AEI)
@@ -52,6 +56,7 @@
       text: ANECA accreditation as Profesor Contratado Doctor (Associate Professor)
 
 - title: Research visits
+  style: timeline
   entries:
     - years: 09/2019
       text: University of Nottingham, Sir Peter Mansfield Imaging Centre, UK (Prof. Matthew Brookes)
@@ -61,6 +66,7 @@
       text: Max Planck Institute for Brain Research, Frankfurt am Main, Germany. Neurophysiology Department (Prof. Wolf Singer, with Dr. Raúl Vicente)
 
 - title: Awards
+  style: awards
   entries:
     - years: "2023"
       text: Medal for Young Researchers, Royal Academy of Engineering of Spain
