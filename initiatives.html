@@ -11,8 +11,8 @@ lede: Open science initiatives I lead or contribute to.
     <a class="init__logo" href="{{ i.url }}" tabindex="-1" aria-hidden="true"><img src="{{ '/assets/img/logos/' | append: i.logo | relative_url }}" alt="" loading="lazy"></a>
     <div>
       <h2><a href="{{ i.url }}">{{ i.name }}</a></h2>
-      {% if i.role %}<span class="init__role">{{ i.role }}</span>{% endif %}
       <p>{{ i.text }}</p>
+      {% if i.role %}<p class="init__role">My role: {{ i.role }}.</p>{% endif %}
     </div>
   </li>
   {% endfor %}
