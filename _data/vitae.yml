@@ -6,7 +6,7 @@
   entries:
     - org: Cajal Neuroscience Center (CNC-CSIC)
       role: Tenured Scientist · Head of the Neuroimaging Group
-      desc: Spanish National Research Council (CSIC), Alcalá de Henares, Spain
+      desc: Spanish National Research Council (CSIC), Madrid, Spain
       years: 2024 – present
       logo: cnc.png
       logo2: csic.png
@@ -144,17 +144,3 @@
     - org: Idea2 Madrid · Madrid-MIT M+Vision
       role: Finalist
       years: "2012"
-    - org: Fractal Competition, ETSAM-UPM
-      role: 1st Mandelbrot Prize
-      desc: "'Sierpinski's emptiness', with A. Niso and Y. Niso"
-      years: "2009"
-    - org: ETSIT, Universidad Politécnica de Madrid
-      role: Movistar Chair study grant
-      years: 2008 – 2009
-    - org: Comunidad de Madrid
-      role: Excellence Scholarship
-      desc: For outstanding academic performance
-      years: 2003 – 2005
-    - org: Universidad Autónoma de Madrid
-      role: Award for top grades in the University Entrance Examination
-      years: "2003"
