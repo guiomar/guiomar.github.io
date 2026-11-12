@@ -357,4 +357,4 @@ p { margin: 0 0 1em; }
 #positions .cv2__logo img[src$="ciber-bbn.svg"] { width: 5.2rem; height: auto; max-width: none; margin-right: 1.6rem; }
 #awards li.cv2__pos { padding-right: 1.3rem !important; min-height: 0; }
 #awards li.cv2__pos { padding-right: 5.6rem !important; }
-.brand .logo-mark { width: 2.7rem; height: auto; flex-shrink: 0; }
+.brand .logo-mark { width: 2.2rem; border-radius: 0; height: auto; flex-shrink: 0; }
